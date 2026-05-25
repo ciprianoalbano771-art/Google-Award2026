@@ -480,11 +480,11 @@ function loadVSLPlayer() {
     playerContainer.innerHTML = '';
 
     // ── PLAYER ATUALIZADO ──
-    playerContainer.innerHTML = '<vturb-smartplayer id="vid-69ed37b779a9b357d90ff920" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>';
+    playerContainer.innerHTML = '<vturb-smartplayer id="vid-6a14606e93af3c403072563f" style="display: block; margin: 0 auto; width: 100%;"></vturb-smartplayer>';
 
     var s = document.createElement("script");
     s.type = "text/javascript";
-    s.src = "https://scripts.converteai.net/dc2a40f2-556d-4925-a043-e8c679f0930c/players/69ed37b779a9b357d90ff920/v4/player.js";
+    s.src = "https://scripts.converteai.net/fd76b233-56ca-40f8-8060-0acabf178da8/players/6a14606e93af3c403072563f/v4/player.js";
     s.async = true;
     s.onload = function () {
         window.vslPlayerLoaded = true;
